@@ -1,0 +1,43 @@
+{
+    "name": "w3scout/contao-memberredirect-bundle",
+    "homepage": "https://github.com/w3scout/contao-memberredirect-bundle",
+    "description":"A Contao module to redirect members to individual pages after Login and/or Logout.",
+    "keywords":["contao", "members", "redirect"],
+    "type": "contao-bundle",
+    "license": "LGPL-3.0+",
+    "version": "0.0.2",
+    "authors": [
+        {
+            "name": "Darko Selesi",
+            "homepage": "https://w3scouts.com",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"hallo@w3scouts.com",
+        "issues":"https://github.com/w3scout/contao-memberredirect-bundle/issues",
+        "source":"https://github.com/w3scout/contao-memberredirect-bundle"
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "contao/core-bundle": "^4.3"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "conflict": {
+        "contao/manager-plugin": "<2.0 || >=3.0",
+        "w3scouts/w3s_memberredirect": "*"
+    },
+    "autoload": {
+      "psr-4": {
+          "W3Scout\\MemberredirectBundle\\": "src/"
+      },
+      "classmap": [
+          "src/Resources/contao/"
+      ]
+    },
+    "extra": {
+        "contao-manager-plugin": "W3Scout\\MemberredirectBundle\\ContaoManager\\Plugin"
+    }
+}
