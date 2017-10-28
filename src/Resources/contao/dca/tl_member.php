@@ -33,7 +33,7 @@ $GLOBALS['TL_DCA']['tl_member']['fields']['redirectAfterLogin'] = array
 	'exclude'                 => true,
 	'inputType'               => 'pageTree',
 	'foreignKey'              => 'tl_page.title',
-	'eval'                    => array('fieldType'=>'radio', 'tl_class' => 'clr'),
+	'eval'                    => array('fieldType'=>'radio', 'tl_class' => 'clr', 'feEditable'=>false, 'feViewable'=>false),
 	'sql'                     => "int(10) unsigned NOT NULL default '0'",
 	'relation'                => array('type'=>'hasOne', 'load'=>'eager')
 );
@@ -43,7 +43,7 @@ $GLOBALS['TL_DCA']['tl_member']['fields']['redirectAfterLogout'] = array
 	'exclude'                 => true,
 	'inputType'               => 'pageTree',
 	'foreignKey'              => 'tl_page.title',
-	'eval'                    => array('fieldType'=>'radio'),
+	'eval'                    => array('fieldType'=>'radio', 'feEditable'=>false, 'feViewable'=>false),
 	'sql'                     => "int(10) unsigned NOT NULL default '0'",
 	'relation'                => array('type'=>'hasOne', 'load'=>'eager')
 );
