@@ -1,5 +1,11 @@
 # Contao Memberredirect Bundle
 
+[![Latest Stable Version](https://poser.pugx.org/w3scout/contao-memberredirect-bundle/v/stable)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
+[![Total Downloads](https://poser.pugx.org/w3scout/contao-memberredirect-bundle/downloads)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/w3scout/contao-memberredirect-bundle/v/unstable)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
+[![License](https://poser.pugx.org/w3scout/contao-memberredirect-bundle/license)](https://packagist.org/packages/w3scout/contao-memberredirect-bundle)
+
+
 ## About
 A Contao Bundle to redirect members to individual pages after Login and/or Logout.
 
@@ -8,6 +14,7 @@ Install [composer](https://getcomposer.org) if you haven't already, then enter t
 ```sh
 composer require w3scout/contao-memberredirect-bundle
 ```
+
 ## Usage
 ...coming soon...
 
